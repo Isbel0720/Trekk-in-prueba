@@ -1,0 +1,64 @@
+.about__trekk{
+    width: 32%;
+    padding-top: 100px;
+    padding-left: 76px;
+}
+
+.fondo{
+    background-image: url('../img/bg-hero.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 158vh;
+    background-position: center;
+}
+
+.section{
+    padding-bottom: 100px;
+}
+
+.section__characteristics{
+    padding-bottom: 50px;
+    padding-left: 458px;
+}
+
+.section__graphics{
+
+    padding-left: 160px;
+}
+
+.section__text{
+    width: 58%;
+    padding-top: 30px;
+}
+
+/*Precios*/
+
+.fondo2{
+    background-image: url('../img/bg-price.svg');
+    background-repeat: no-repeat;
+    background-size: 130%;
+    height: 180vh;
+    background-position: center;
+}
+
+.section__price__tittle{
+    padding-top: 150px;
+    padding-left: 458px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.article__price__one{
+    padding: 40px 40px 40px 40px;
+    width: 47%;
+    height: 130%;
+    background-color: $white;
+    margin-left: 146px;
+}
+
+.article__price__twoo{
+    padding: 40px 40px 40px 40px;
+    width: 47%;
+    height: 130%;
+    background-color: $white;
+}

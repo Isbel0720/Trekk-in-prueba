@@ -1,0 +1,22 @@
+.container-menu{
+    padding: 30px 30px 30px 80px;
+}
+
+.list-menu{
+    display: inline-flex;
+    position: absolute;
+    top: 44px;
+    padding-left: 30px;
+    li {
+        padding-right: 10px;
+        font-family: $Raleway;
+        font-size: $small;
+    }
+}
+
+.login__people{
+    position: absolute;
+    right: 30px;
+    top: 44px;
+    padding-right: 70px;
+}
