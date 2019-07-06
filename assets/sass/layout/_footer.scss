@@ -1,4 +1,25 @@
+.last{
+    background-color: $raising-black;
+    padding: 20px;
+}
+
 .last__menu__items__pie{
     display: flex;
     padding-left: 20px;
+    
+    li{
+        padding-right: 20px;
+        color: $white;
+        font-size: $small;
+        font-family: $Raleway;
+
+    }
+}
+
+.last__menu__legal{
+    color: $white;
+    font-size: $small;
+    font-family: $Raleway;
+    text-align: end;
+    padding-right: 53px;
 }
