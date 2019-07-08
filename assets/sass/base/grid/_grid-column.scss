@@ -1,6 +1,6 @@
 
 @mixin set-col-xs {
-  @for $i from 1 to 12 {
+  @for $i from 1 to 13 {
     .col-#{$i} {
       grid-column: span #{$i}
     }
@@ -8,8 +8,8 @@
 }
 
 @mixin set-col-sm {
-   @media screen and (min-width: $viewport-small){
-    @for $i from 1 to 12 {
+   @media (min-width: $viewport-small){
+    @for $i from 1 to 13 {
       .col-sm-#{$i} {
         grid-column: span #{$i}
       }
@@ -18,8 +18,8 @@
 }
 
 @mixin set-col-md {
-  @media screen and (min-width: $viewport-medium){
-    @for $i from 1 to 12 {
+  @media (min-width: $viewport-medium){
+    @for $i from 1 to 13 {
       .col-md-#{$i} {
         grid-column: span #{$i}
       }
@@ -28,8 +28,8 @@
 }
 
 @mixin set-col-lg {
-  @media screen and (min-width: $viewport-large){
-    @for $i from 1 to 12 {
+  @media (min-width: $viewport-large){
+    @for $i from 1 to 13 {
       .col-lg-#{$i} {
         grid-column: span #{$i}
       }
@@ -38,8 +38,8 @@
 }
 
 @mixin set-col-xl {
-  @media screen and (min-width: $viewport-xlarge){
-    @for $i from 1 to 12 {
+  @media (min-width: $viewport-xlarge){
+    @for $i from 1 to 13 {
       .col-xl-#{$i} {
         grid-column: span #{$i}
       }

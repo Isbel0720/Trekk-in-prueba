@@ -1,0 +1,30 @@
+.header__navigation{
+padding-top: 20px;
+}
+
+.container-menu{
+padding: 30px 30px 30px 80px;
+}
+
+@media (min-width: $viewport-small){
+.header__navigation-list{
+    display: none;
+}
+}
+
+@media (min-width: $viewport-medium){
+
+.header__navigation-list{
+    display: inline-flex;
+    padding-left: 30px;
+    position: relative;
+    top: -12px;
+
+    li {
+        padding-right: 10px;
+        font-family: $Raleway;
+        font-size: $small;
+    }
+}
+}
+

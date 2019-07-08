@@ -1,13 +1,32 @@
+
+@media (min-width: $viewport-small){
+.login__btn1{
+    display: none;
+}
+}
+
+@media (min-width: $viewport-medium){
 .login__btn1{
     border: none;
     padding: 5px 10px;
+    font-family: $Raleway;
+}
 }
 
+@media (min-width: $viewport-small){
+.login__btn2{
+    display: none;
+}
+}
+
+@media (min-width: $viewport-medium){
 .login__btn2{
     border: none;
     padding: 5px 10px;
     background-color: $ball-blue;
     color: $white;
+    font-family: $Raleway;
+    
 
     &:hover{
         background-color: $middle-blue;
@@ -15,9 +34,22 @@
 
     &:active {
         background-color: $silver-chalice;
-      }
+        }
+}
 }
 
+
+@media (min-width: $viewport-small){
+.btn-ofert1{
+    border: none;
+    padding: 4px 87px;
+    background-color: $ball-blue;
+    color: $white;
+    margin-top: 10px;
+}
+}
+
+@media (min-width: $viewport-medium){
 .btn-ofert1{
     border: none;
     padding: 10px 100px;
@@ -25,11 +57,24 @@
     color: $white;
     margin-top: 10px;
 }
+}
 
+@media (min-width: $viewport-small){
+.btn-ofert2{
+    border: none;
+    padding: 5px 80px;
+    background-color: $ball-blue;
+    color: $white;
+    margin-top: 10px;
+}
+}
+
+@media (min-width: $viewport-medium){
 .btn-ofert2{
     border: none;
     padding: 10px 89px;
     background-color: $ball-blue;
     color: $white;
     margin-top: 10px;
+}
 }
