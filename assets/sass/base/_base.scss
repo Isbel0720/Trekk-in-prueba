@@ -4,13 +4,11 @@ body{
 }
 
 /*Efectos*/
-
 .section__graphics__svg{
-    animation-name: container__graphics__svg;
-    animation-duration: 2s;
+    animation-name: section__graphics__svg;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-   
 }
 
 /*Keyframes*/

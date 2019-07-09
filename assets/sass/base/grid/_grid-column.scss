@@ -1,12 +1,4 @@
 
-@mixin set-col-xs {
-  @for $i from 1 to 13 {
-    .col-#{$i} {
-      grid-column: span #{$i}
-    }
-  }
-}
-
 @mixin set-col-sm {
    @media (min-width: $viewport-small){
     @for $i from 1 to 13 {
@@ -54,8 +46,6 @@
     [class^='col-'] {
       padding: 10px;
     }
-
-    @include set-col-xs();
     @include set-col-sm();
     @include set-col-md();
     @include set-col-lg();

@@ -11,7 +11,10 @@
 
     <!---Mis fuentes-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <!---Font awesome-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <title>Trekk-ing</title>
 </head>
@@ -19,7 +22,7 @@
 <body>
     <header class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-5">
                 <nav class="header__navigation">
                     <img src="assets/img/Logo.svg" alt="logo-Trekking">
                     <ul class="header__navigation-list">
@@ -28,13 +31,12 @@
                         <li>Precios</li>
                     </ul>
 
-                    <div class="col-6">
-                        <nav class="nav__login">
-                            <button class="login__btn1">Iniciar Sesión</button>
-                            <button class="login__btn2">Regístrate</button>
-                            <i class="fa fa-bars"></i>
-                        </nav>
-                    </div>
+                    <nav class="header__navigation__login">
+                        <button class="login__btn1">Iniciar Sesión</button>
+                        <button class="login__btn2">Regístrate</button>
+                        <i class="fa fa-bars fa-2x burger"></i>
+                    </nav>
+                </nav>
             </div>
         </div>
     </header>
@@ -48,16 +50,11 @@
         </div>
     </section>
 
-    <section class="container">
-        <div class="row">
-            <div class="section__characteristics col-12">
-                <h2>Características</h2>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="section__graphics col-12 col-md-6">
-                <div class="section__graphics__svg">
+    <section class="section ">
+        <h2>Características</h2>
+        <div class="container characteristics">
+            <div class="row">
+                <div class="section__graphics__svg col-12 col-xs-12 col-sm-12 col-md-6">
                     <svg width="318px" height="165px" xmlns="http://www.w3.org/2000/svg">
                         <g class="bar-graph" fill-rule="evenodd">
                             <path class="a-bar" fill="#EE9480"
@@ -69,29 +66,27 @@
                         </g>
                     </svg>
                 </div>
-            </div>
 
-            <div class="container__text col-12 col-md-6">
-                <h3>Estadísticas de tu progreso</h3>
-                <p>Podrás ver todo tu avance desde el día uno y comparar tu rendimiento.
-                    Motívate a seguir e invita a tus amigos para que te acompañen en cada aventura.
-                </p>
+                <div class="section__text col-12 col-xs-12 col-sm-12 col-md-6">
+
+                    <h3>Estadísticas de tu progreso</h3>
+                    <p>Podrás ver todo tu avance desde el día uno y comparar tu rendimiento.
+                        Motívate a seguir e invita a tus amigos para que te acompañen en cada aventura.
+                    </p>
+                </div>
             </div>
+        </div>
     </section>
 
     <section class="fondo2">
         <div class="container">
-            <div class="row">
-                <div class="section__price">
-                    <h2 class="section__price__tittle">Precios</h2>
-                </div>
+            <div class="section__price">
+                <h2>Precios</h2>
             </div>
-
             <div class="row">
-                <div class="article__price__one col-12 col-md-6">
+                <div class="article__price__one col-12 col-xs-12 col-sm-12 col-md-6">
                     <h4>Trekk-in Free</h4>
                     <h5>$ 0 / mes</h5>
-
                     <hr>
                     <div class="article__first__description">
                         <ul>
@@ -103,7 +98,7 @@
                     <button type="button" class="btn-ofert1">Obtén Free</button>
                 </div>
 
-                <div class="article__price__twoo col-12 col-md-6">
+                <div class="article__price__twoo col-12 col-xs-12 col-sm-12 col-md-6">
                     <h4> Trekk-in Premium</h4>
                     <h5>$ 3500 / mes</h5>
                     <hr>
@@ -116,7 +111,6 @@
                             <li>Intregación con otras aplicaciones</li>
                         </ul>
                     </div>
-
                     <hr>
                     <button type="button" class="btn-ofert2">Obtén Premium</button>
                 </div>
@@ -124,11 +118,10 @@
         </div>
     </section>
 
-
     <footer class="last">
         <div class="container">
             <div class="row">
-                <div class="last__menu col-12 col-md-6">
+                <div class="last__menu col-12 col-xs-12 col-sm-12 col-md-6">
                     <nav class="last__menu__items">
                         <ul class="last__menu__items__pie">
                             <li>Legal</li>
@@ -137,7 +130,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="last__menu__legal col-12 col-md-6">
+                <div class="last__menu__legal col-12 col-xs-12 col-sm-12 col-md-6">
                     <p>© 2018 Trekk-in SPA.</p>
                 </div>
             </div>
