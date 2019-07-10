@@ -394,7 +394,7 @@ p {
   padding-left: 13%;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 375px) {
   .header__navigation-list {
     display: inline-flex;
     position: relative;
@@ -422,15 +422,15 @@ p {
 
 .section__about {
   width: 29%;
-  padding-top: 76px;
-  padding-left: 76px;
+  padding-top: 4%;
+  padding-left: 6%;
 }
 
 @media (max-width: 375px) {
   .section__about {
     width: 71%;
-    padding-top: 76px;
-    padding-left: 76px;
+    padding-top: 15%;
+    padding-left: 15%;
   }
 }
 .section__fondo {
@@ -478,6 +478,7 @@ p {
 .section__graphics__svg {
   display: flex;
   justify-content: center;
+  padding-left: 15%;
 }
 
 .section__text {
@@ -490,7 +491,7 @@ p {
     width: 88%;
     padding-top: 30px;
     padding-left: 10%;
-    padding-bottom: 20%;
+    padding-bottom: 10%;
   }
 }
 /*Precios*/
@@ -580,7 +581,7 @@ p {
     margin-top: 35%;
     margin-left: 9%;
     width: 59%;
-    height: 68%;
+    height: 77%;
     background-color: #fff;
   }
   .article__price__twoo li {
@@ -605,9 +606,15 @@ p {
 
 .last {
   background-color: #221d23;
-  padding: 20px;
+  padding: 35px 20px 40px 43px;
 }
 
+@media (max-width: 375px) {
+  .last {
+    background-color: #221d23;
+    padding: 30px 45px 20px 61px;
+  }
+}
 .last__menu__items__pie {
   display: flex;
   padding-left: 20px;
@@ -631,8 +638,8 @@ p {
   display: flex;
   justify-content: flex-end;
   position: relative;
-  top: -35px;
-  left: 165%;
+  top: -43px;
+  left: 121%;
 }
 
 @media (max-width: 375px) {
@@ -644,13 +651,24 @@ p {
     left: -17%;
   }
 }
+@media (min-width: 375px) {
+  .burger {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  .burger {
+    display: none;
+  }
+}
 .login__btn1 {
   border: none;
   padding: 5px 10px;
+  font-size: 14px;
   font-family: "Raleway", "sans-serif";
 }
 
-@media (max-width: 576px) {
+@media (max-width: 375px) {
   .login__btn1 {
     display: none;
     border: none;
@@ -663,6 +681,7 @@ p {
   padding: 5px 10px;
   background-color: #2ab7ca;
   color: #fff;
+  font-size: 14px;
   font-family: "Raleway", "sans-serif";
 }
 .login__btn2:hover {
@@ -672,7 +691,7 @@ p {
   background-color: #aeacaf;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 375px) {
   .login__btn2 {
     display: none;
     border: none;
@@ -688,14 +707,10 @@ p {
     background-color: #aeacaf;
   }
 }
-@media (max-width: 768px) {
-  .burger {
-    display: none;
-  }
-}
 .btn-ofert1 {
   border: none;
-  padding: 10px 100px;
+  width: 100%;
+  height: 9%;
   background-color: #2ab7ca;
   color: #fff;
   margin-top: 10px;
@@ -703,7 +718,8 @@ p {
 
 .btn-ofert2 {
   border: none;
-  padding: 10px 89px;
+  width: 100%;
+  height: 9%;
   background-color: #2ab7ca;
   color: #fff;
   margin-top: 10px;

@@ -2,10 +2,11 @@
 .login__btn1{
 border: none;
 padding: 5px 10px;
+font-size: $small;
 font-family: $Raleway;
 }
 
-@media (max-width: $viewport-small){
+@media (max-width: $viewport-xsmall){
 .login__btn1{
 display: none;
 border: none;
@@ -19,6 +20,7 @@ border: none;
 padding: 5px 10px;
 background-color: $ball-blue;
 color: $white;
+font-size: $small;
 font-family: $Raleway;
 
 &:hover{
@@ -31,7 +33,7 @@ font-family: $Raleway;
 }
 
 
-@media (max-width: $viewport-small){
+@media (max-width: $viewport-xsmall){
 .login__btn2{
 display: none;
 border: none;
@@ -50,15 +52,11 @@ font-family: $Raleway;
 }
 }
 
-@media (max-width: $viewport-medium){
-    .burger{
-    display: none;
-    }
-}
 
 .btn-ofert1{
 border: none;
-padding: 10px 100px;
+width: 100%;
+height: 9%;
 background-color: $ball-blue;
 color: $white;
 margin-top: 10px;
@@ -66,7 +64,8 @@ margin-top: 10px;
 
 .btn-ofert2{
 border: none;
-padding: 10px 89px;
+width: 100%;
+height: 9%;
 background-color: $ball-blue;
 color: $white;
 margin-top: 10px;

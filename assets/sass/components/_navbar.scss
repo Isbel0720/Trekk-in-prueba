@@ -3,8 +3,8 @@
     display: flex;
     justify-content: flex-end;
     position: relative;
-    top: -35px;
-    left: 165%;
+    top: -43px;
+    left: 121%;
 }
 
 @media (max-width: $viewport-xsmall){
@@ -17,5 +17,15 @@
     }
 }
 
+@media (min-width: $viewport-xsmall){
+    .burger{
+    display: block;
+    }
+}
 
+@media (min-width: $viewport-large){
+    .burger{
+        display: none;
+        }
+}
 

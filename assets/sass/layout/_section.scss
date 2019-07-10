@@ -1,15 +1,15 @@
 
 .section__about{
 width: 29%;
-padding-top: 76px;
-padding-left: 76px;
+padding-top: 4%;
+padding-left: 6%;
 }
 
 @media (max-width: $viewport-xsmall){
 .section__about{
 width: 71%;
-padding-top: 76px;
-padding-left: 76px;
+padding-top: 15%;
+padding-left: 15%;
 }
 }
 
@@ -64,6 +64,7 @@ padding-bottom: 7%;
 .section__graphics__svg{
 display: flex;
 justify-content: center;
+padding-left: 15%;
 }
 
 .section__text{
@@ -76,10 +77,9 @@ padding-top: 30px;
 width: 88%;
 padding-top: 30px;
 padding-left: 10%;
-padding-bottom: 20%;
+padding-bottom: 10%;
 }
 }
-
 
 /*Precios*/
 

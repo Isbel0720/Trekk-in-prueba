@@ -1,6 +1,13 @@
 .last{
     background-color: $raising-black;
-    padding: 20px;
+    padding: 35px 20px 40px 43px;
+}
+
+@media (max-width: $viewport-xsmall){
+    .last{
+        background-color: $raising-black;
+        padding: 30px 45px 20px 61px;
+    }
 }
 
 .last__menu__items__pie{

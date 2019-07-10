@@ -4,7 +4,7 @@
     }
 
 
-@media (max-width: $viewport-small){
+@media (max-width: $viewport-xsmall){
 .header__navigation-list{
     display: inline-flex;
     position: relative;
@@ -32,5 +32,4 @@ li {
     font-size: $small;
 }
 }
-
 
