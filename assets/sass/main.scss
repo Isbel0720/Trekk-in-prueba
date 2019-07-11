@@ -6,8 +6,8 @@
 @import
   'base/base',
   'base/reset',
-  'base/typography',
-  'base/grid';
+  'base/grid',
+  'base/typography';
 
   @import
   'layout/header',
@@ -19,6 +19,3 @@
   'components/navbar',
   'components/buttons',
   'components/input'; 
-
- 
-  

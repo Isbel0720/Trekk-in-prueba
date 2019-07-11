@@ -1,13 +1,16 @@
 .last{
     background-color: $raising-black;
-    padding: 35px 20px 40px 43px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
 }
 
 @media (max-width: $viewport-xsmall){
-    .last{
-        background-color: $raising-black;
-        padding: 30px 45px 20px 61px;
-    }
+.last{
+background-color: $raising-black;
+padding-top: 30px;
+padding-bottom: 30px;
+}
 }
 
 .last__menu__items__pie{
@@ -18,7 +21,7 @@
         padding-right: 20px;
         color: $white;
         font-size: $small;
-        font-family: $Raleway;
+        font-family: $Open-Sans;
 
     }
 }
@@ -26,7 +29,16 @@
 .last__menu__legal{
     color: $white;
     font-size: $small;
-    font-family: $Raleway;
+    font-family: $Open-Sans;
     text-align: end;
     padding-right: 53px;
+}
+
+@media (max-width: $viewport-xsmall){
+    .last__menu__legal{
+        color: $white;
+        font-size: $small;
+        font-family: $Open-Sans;
+        text-align: center;
+    }   
 }

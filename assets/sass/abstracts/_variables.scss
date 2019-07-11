@@ -1,5 +1,5 @@
 // Brakpoints
-$viewport-xsmall:375px;
+$viewport-xsmall: 375px;
 $viewport-medium: 768px;
 $viewport-large: 992px;
 $viewport-xlarge: 1200px;
@@ -34,6 +34,7 @@ $silver-chalice: #aeacaf;
 
 //Tipografías
 $Raleway: 'Raleway', 'sans-serif';
+$Open-Sans:'Open Sans', 'sans-serif';
 
 
 //Peso de fuentes
@@ -53,12 +54,3 @@ $small: 14px;
 //Buttons size
 $medium-button: 200px;
 $small-button: 100px;
-
-// Brakpoints
-$viewport-small: 576px;
-$viewport-medium: 768px;
-$viewport-large: 992px;
-$viewport-xlarge: 1200px;
-
-// Numbers of Columns
-$number-columns: 12;

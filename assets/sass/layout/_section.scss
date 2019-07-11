@@ -5,6 +5,14 @@ padding-top: 4%;
 padding-left: 6%;
 }
 
+@media (max-width: $viewport-medium){
+.section__about{
+width: 32%;
+padding-top: 6%;
+padding-left: 12%;
+}
+}
+
 @media (max-width: $viewport-xsmall){
 .section__about{
 width: 71%;
@@ -21,6 +29,17 @@ height: 130vh;
 background-position: right bottom;
 }
 
+@media (max-width: $viewport-medium){
+.section__fondo{
+    background-image: url('../img/bg-hero.svg');
+    background-repeat: no-repeat;
+    background-size: 133%;
+    height: 70vh;
+    background-position: right bottom;
+    }
+}
+
+
 @media (max-width: $viewport-xsmall){
 .section__fondo{
 background-image: url('../img/bg-hero.svg');
@@ -30,6 +49,7 @@ height: 92vh;
 background-position: right bottom;
 }
 }
+
 
 /*Características*/
 
@@ -47,18 +67,8 @@ padding-top: 17%;
 }
 
 .characteristics{
-padding-left: 6%;
 padding-top: 6%;
 padding-bottom: 7%;
-}
-
-
-@media (max-width: $viewport-xsmall){
-.section__graphics__svg{
-    display: flex;
-    justify-content: center;
-    padding-top: 20%;
-    }
 }
 
 .section__graphics__svg{
@@ -67,9 +77,37 @@ justify-content: center;
 padding-left: 15%;
 }
 
+
+@media (max-width: $viewport-medium){
+.section__graphics__svg{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-left: 2%;
+    }
+}
+
+@media (max-width: $viewport-xsmall){
+.section__graphics__svg{
+display: flex;
+justify-content: center;
+padding-top: 20%;
+padding-left: 5%;
+}
+}
+
+
 .section__text{
 width: 63%;
-padding-top: 30px;
+padding-top: 5%;
+}
+
+@media (max-width: $viewport-medium){
+.section__text{
+    width: 49%;
+    padding-top: 5%;
+    padding-left: 27%;
+    }
 }
 
 @media (max-width: $viewport-xsmall){
@@ -91,24 +129,33 @@ height: 130vh;
 background-position: center;
 }
 
+@media (max-width: $viewport-medium){
+.fondo2{
+    background-image: url('../img/bg-price.svg');
+    background-size: 318%;
+    height: 115vh;
+    background-position: center;
+    }
+}
+
 @media (max-width: $viewport-xsmall){
 .fondo2{
 background-image: url('../img/bg-price.svg');
 background-size: 775%;
-height: 235vh;
+height: 210vh;
 background-position: center;
 }
 }
 
 .section__price{
-padding-top: 160px;
-padding-bottom: 50px;
+padding-top: 15%;
+padding-bottom: 5%;
 color: white;
 }
 
 @media (max-width: $viewport-xsmall){
 .section__price{
-padding-top: 70%;
+padding-top: 35%;
 padding-bottom: 15%;
 color: white;
 }

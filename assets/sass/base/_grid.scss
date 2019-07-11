@@ -1,4 +1,10 @@
 /*Container */
+@media (min-width: 375px){
+  .container {
+    width: 375px;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
